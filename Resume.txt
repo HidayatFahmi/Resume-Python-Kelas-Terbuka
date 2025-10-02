@@ -1,0 +1,24 @@
+/////////////////////////////////// 1. Apa Itu Python
+- https://www.youtube.com/watch?v=iA8lLwmtKQM&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY
+- dynamic, multi platform, free, hype programmer language, most use for data, robotic, AI and ML
+
+/////////////////////////////////// 2. Instalasi python dan VScode
+- check installation : python --version
+- create .vscode folder and "settings.json" file inside for setting environment (theme, font, color, etc)
+
+/////////////////////////////////// 3. Cara Kerja Program dan bytecode
+- how to running/execute code : python "folder names"
+- python adalah bahasa pemrograman interpreted, berbeda dengan compiled programming language
+- # = commnet in python, """ = multiline comment
+- bisa compile python kedalam bytecode, tujuannya agar code lebih cepat di eksekusi
+- cara compile code kedalam bytecode yaitu ketik "python -m py_compile "nama file" maka sistem akan lgsg membuat folder "__pycache__"
+- masuk kedalama folder __pycache__ lalu ketik "python [nama file]"
+
+/////////////////////////////////// 4. Mengenal Variabel
+- variabel adalah wadah untuk menyimpan data yang berubah-ubah nilainya
+- pada python suatu data tidak perlu deklarasi atau dituliskan tipenya (integer, boolean)
+- penamaan variabel pada python tidak boleh ada spasi, ada beberapa tipe penamaan suatu variabel, fungsi diantarnya pascal case, snack case, camal case
+- b = a, adalah assignment indirect
+
+/////////////////////////////////// 4. Tipe data
+
