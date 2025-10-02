@@ -21,4 +21,10 @@
 - b = a, adalah assignment indirect
 
 /////////////////////////////////// 4. Tipe data
-- tipe data angka(integer)
+- tipe data angka(integer, float), string (kumpulan karakter), boolean yaitu tipe data biner 0/1 atau (True/False)
+- tipe data khusus : bilangan kompleks (10 + 5i)
+- format penulisan data kompleks : data_complex = complex(5,6) => 5 adalah bilangan real dan 6 adalah bilangan imaginer
+- tipe data bahasa C : harus library -> from ctypes import c_double
+
+
+last materi youtube :
