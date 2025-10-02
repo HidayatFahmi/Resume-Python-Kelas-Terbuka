@@ -21,4 +21,4 @@
 - b = a, adalah assignment indirect
 
 /////////////////////////////////// 4. Tipe data
-
+- tipe data angka(integer)
