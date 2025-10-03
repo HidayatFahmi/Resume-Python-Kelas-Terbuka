@@ -10,9 +10,9 @@
 - how to running/execute code : python "folder names"
 - python adalah bahasa pemrograman interpreted, berbeda dengan compiled programming language
 - # = commnet in python, """ = multiline comment
-- bisa compile python kedalam bytecode, tujuannya agar code lebih cepat di eksekusi
+- kita bisa compile python kedalam bytecode, tujuannya agar code lebih cepat di eksekusi
 - cara compile code kedalam bytecode yaitu ketik "python -m py_compile "nama file" maka sistem akan lgsg membuat folder "__pycache__"
-- masuk kedalama folder __pycache__ lalu ketik "python [nama file]"
+- masuk kedalama folder __pycache__ lalu ketik "python [nama file]" untuk running code
 
 /////////////////////////////////// 4. Mengenal Variabel
 - variabel adalah wadah untuk menyimpan data yang berubah-ubah nilainya
@@ -25,6 +25,19 @@
 - tipe data khusus : bilangan kompleks (10 + 5i)
 - format penulisan data kompleks : data_complex = complex(5,6) => 5 adalah bilangan real dan 6 adalah bilangan imaginer
 - tipe data bahasa C : harus library -> from ctypes import c_double
+- cara install jupyter : 
+  1. install python terlebih dahulu
+  2. masuk cmd ketik "pip install jupyter"
+  3. setelah selesai ketik "pip install notebook"
+
+/////////////////////////////////// 5. Casting Tipe Data
+- casting adalah merubah dari satu tipe data ke tipe data lain / konversi
+- data_integer= 99;
+  data_float = float(data_integer);
+  data_str =  str(data_integer);
+- tipe data string dengan kumpulan huruf tidak bisa di casting ke dalam tipe data number (int, float)
+
+/////////////////////////////////// 6. Mengambil Input dari data user
 
 
-last materi youtube :
+last materi youtube : https://www.youtube.com/watch?v=3d8JbMafZOY&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=7
