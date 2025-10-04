@@ -1,6 +1,6 @@
 /////////////////////////////////// 1. Apa Itu Python
 - https://www.youtube.com/watch?v=iA8lLwmtKQM&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY
-- dynamic, multi platform, free, hype programmer language, most use for data, robotic, AI and ML
+- dynamic, multi platform, free, hype programming language, most use for data, robotic, AI and ML
 
 /////////////////////////////////// 2. Instalasi python dan VScode
 - check installation : python --version
@@ -38,6 +38,12 @@
 - tipe data string dengan kumpulan huruf tidak bisa di casting ke dalam tipe data number (int, float)
 
 /////////////////////////////////// 6. Mengambil Input dari data user
+- syntax : data = input("masukkan data : ")
+           data_int = int(input("masukkan angka : "))
+
+/////////////////////////////////// 7. Operasi Aritmatika
+- addition, subtraction, multiply, division, exponential (**), modulus/ sisa bagi (%), operasi floor division (//)
+- untuk pembagian yang menghasilkan bilagnan pecahan maka python akan secara implisit casting mejadi tipe data float
 
 
-last materi youtube : https://www.youtube.com/watch?v=3d8JbMafZOY&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=7
+last materi youtube : https://www.youtube.com/watch?v=RoDGGTWbKK4&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=9

@@ -1,0 +1,6 @@
+data = input("masukkan data : ")
+print(f"data = {data}, data types = {type(data)}")
+data_int = int(input("masukkan angka : "))
+print(f"Data angka = {data_int}, data types = {type(data_int)}")
+data_biner = bool(input("masukkan data biner : "))
+print(f"data biner = {data_biner}, data types = {type(data_biner)}")
