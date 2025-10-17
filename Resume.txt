@@ -9,7 +9,7 @@
 /////////////////////////////////// 3. Cara Kerja Program dan bytecode
 - how to running/execute code : python "folder names"
 - python adalah bahasa pemrograman interpreted, berbeda dengan compiled programming language
-- # = commnet in python, """ = multiline comment
+- # = comment in python, """ = multiline comment
 - kita bisa compile python kedalam bytecode, tujuannya agar code lebih cepat di eksekusi
 - cara compile code kedalam bytecode yaitu ketik "python -m py_compile "nama file" maka sistem akan lgsg membuat folder "__pycache__"
 - masuk kedalama folder __pycache__ lalu ketik "python [nama file]" untuk running code
@@ -35,7 +35,7 @@
 - data_integer= 99;
   data_float = float(data_integer);
   data_str =  str(data_integer);
-- tipe data string dengan kumpulan huruf tidak bisa di casting ke dalam tipe data number (int, float)
+- tipe data string dengan kumpulan huruf tidak bisa di casting ke dalam tipe data number (int, float) menyebabkan error
 
 /////////////////////////////////// 6. Mengambil Input dari data user
 - syntax : data = input("masukkan data : ")
@@ -43,7 +43,16 @@
 
 /////////////////////////////////// 7. Operasi Aritmatika
 - addition, subtraction, multiply, division, exponential (**), modulus/ sisa bagi (%), operasi floor division (//)
-- untuk pembagian yang menghasilkan bilagnan pecahan maka python akan secara implisit casting mejadi tipe data float
+- untuk pembagian yang menghasilkan bilangan pecahan maka python akan secara implisit casting mejadi tipe data float
+- prioritas operasi aritmatika : 
+  1. kurung (), 
+  2. eksponen **, 
+  3. perkalian-pembagian-floor_division-modulus * / // %, 
+  4. tambah-kurang + -
+
+/////////////////////////////////// 8. Latihan Operasi
 
 
-last materi youtube : https://www.youtube.com/watch?v=RoDGGTWbKK4&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=9
+
+last materi youtube : kelas terbuka
+https://www.youtube.com/watch?v=RoDGGTWbKK4&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=9
