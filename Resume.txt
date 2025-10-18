@@ -51,8 +51,22 @@
   4. tambah-kurang + -
 
 /////////////////////////////////// 8. Latihan Operasi
+- konversi temperature celcisu, reamur, fahrenheit dan kelvin
+
+/////////////////////////////////// 9. Operasi Komparasi
+- setiap hasil dai operasi komparasi adalah boolean
+-  ada beberapa operator komparasi yaitu <, >, <=, >=, ==, !=, is, is not
+- is dan is not adalah operator komparasi untuk membandingka identitas sebuah objek bukan nilainya. apakah 2 variabel tersebut menunjuk ke objek yang sama pada sebuah memori
+- contoh : a = [1, 2, 3]
+           b = a;
+           c = [1, 2, 3]
+          print(a is b) // hasilnya True
+          print(c is a) // hasilnya false
+- selain is dan is not, operator komparasi akan bisa bekerja pada syntax literal yaitu membandingkan variabel yang sudah ada nilainya dengan nilai langsung : a == 4
+- pada python variabel berbeda dengan nilai yang sama dengan rentang tertentu akan ditempatkan di memori yang sama sehingga apabila menggunakan operator komparasi is maka nilainya akan true
+
 
 
 
 last materi youtube : kelas terbuka
-https://www.youtube.com/watch?v=RoDGGTWbKK4&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=9
+https://www.youtube.com/watch?v=SmiUsrGTnpY&list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY&index=10
